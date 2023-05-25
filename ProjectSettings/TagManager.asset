@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - MainCube
+  - PlayerContainer
+  - Obstacle
+  - Pickup
+  - ObstacleParent
+  - PickupParent
+  - Cube
+  - Box
+  - CubeParent
+  - DestroyedCubes
+  - ObstacleCollection
+  - Hit
+  - Lava
+  - ProgressBar
+  - Platform
+  - SpeedBoost
+  - Cylinder
+  - Trap
+  - Multiplier
+  - FinishLine
+  - GameManager
+  - Diamond
+  - SoundsUsed
+  - PanelMultiplier
+  - PanelScore
+  - PauseMenu
+  - OptionsCanvas
+  - MainMenuCanvas
+  - GroundObject
+  - MainMenu
+  - ChangeCube
+  - ColorManager
+  - LevelCompletePanel
+  - LevelIncompletePanel
+  - CoinsText
+  - Purchase
+  - IAP-Button
+  - GreenText
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Platform
+  - Water
+  - UI
+  - Env
+  - Text
+  - UIC
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &850500248474099625
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 850500248474099631}
+  - component: {fileID: 850500248474099624}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: GameManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &850500248474099631
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850500248474099625}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 82.69893}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &850500248474099624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850500248474099625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74ad87ae8c5e5f342a8f45f9db604b30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerContainer: {fileID: 0}
+  soundAudioClipArray:
+  - sound: 0
+    audioClip: {fileID: 8300000, guid: 6bd251d95f13a2943a5be488be1d4d83, type: 3}
+  - sound: 1
+    audioClip: {fileID: 8300000, guid: 246d0c1089724844db7c9f077971ab2b, type: 3}
+  - sound: 2
+    audioClip: {fileID: 8300000, guid: 7c291f7f1b4f8984fa060997aaf62692, type: 3}
+  - sound: 3
+    audioClip: {fileID: 8300000, guid: b0c876f9e8fecbc4f863caf7672a8e4d, type: 3}
+  - sound: 4
+    audioClip: {fileID: 8300000, guid: a0514e23e8ee9ce45a0ae229519bd184, type: 3}
+  coins: 0
+  coinsText: {fileID: 0}
+  LevelCompletePanel: {fileID: 0}
+  LevelIncompletePanel: {fileID: 0}
+  PanelMultiplier: {fileID: 0}
+  PanelScore: {fileID: 0}
